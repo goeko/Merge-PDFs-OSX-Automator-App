@@ -1,6 +1,6 @@
 # merge-pdfs (Finder-Button-kompatible Droplet-App)
 
-Dieses AppleScript erzeugt eine kleine App, die mehrere ausgewählte PDF-Dateien in der übergebenen Reihenfolge zusammenführt und die Ausgabe als "<ErsteDatei>-ALL.pdf" im gleichen Ordner ablegt.
+Dieses AppleScript erzeugt eine kleine App, die mehrere ausgewählte PDF-Dateien in der übergebenen Reihenfolge zusammenführt und die Ausgabe als Zusammengeführte PDF  "<ErsteDatei>-ALL.pdf" im gleichen Ordner ablegt.
 
 ## Installation (Terminal, macOS)
 1) Lade die Datei `merge-pdfs.applescript` herunter.
