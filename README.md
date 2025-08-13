@@ -7,7 +7,7 @@ Dieses AppleScript erzeugt eine kleine App, die mehrere ausgewählte PDF-Dateien
 1) Lade die Datei `merge-pdfs.applescript` herunter.
 2) Öffne das Terminal und führe aus (passt ggf. den Zielpfad an):
    
-   ```bash
+```bash
    osacompile -o ~/Desktop/marge-pdfs.app /path/to/merge-pdfs.applescript
 ````
 
