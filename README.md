@@ -11,6 +11,12 @@ Dieses AppleScript erzeugt eine kleine App, die mehrere ausgewählte PDF-Dateien
    osacompile -o ~/Desktop/marge-pdfs.app /path/to/merge-pdfs.applescript
 ````
 
+wenn im gleichen Verzeichnis
+
+```bash
+osacompile -o ./merge-pdfs.app ./merge-pdfs.applescript
+```
+
 3. Ziehe `merge-pdfs.app` bei gedrückter ⌘-Taste in die Finder-Werkzeugleiste, um einen Button zu erhalten.
 4. Nutzung: Markiere im Finder mehrere PDFs und ziehe sie auf den Button **oder** markiere die Dateien, drücke den Button und wähle im Dialog die Dateien aus.
 
@@ -28,9 +34,4 @@ Dieses AppleScript erzeugt eine kleine App, die mehrere ausgewählte PDF-Dateien
 3. **Ergebnisdatei mit `-ALL.pdf` im selben Ordner**
    ![Schritt 3 – Ergebnisdatei im Finder](click_droplet_select_files2.jpg)
 
----
-
-```bash
-osacompile -o ./merge-pdfs.app ./merge-pdfs.applescript
-```
 
